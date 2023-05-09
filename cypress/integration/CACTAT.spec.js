@@ -11,7 +11,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
    it('Testes campos obrigatorios', function(){
 
-      const longtext = 'teste,teste,teste,teste,teste,teste,teste,teste,teste,test'
+      const longtext = 'teste,teste,teste,teste,teste,teste,teste,teste,teste'
       cy.get('#firstName').type('Marcos')
       cy.get('#lastName').type('Rocha')
       cy.get('#email').type('marcos@exemplo.com')
